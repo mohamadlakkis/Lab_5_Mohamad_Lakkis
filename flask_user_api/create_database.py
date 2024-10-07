@@ -127,3 +127,4 @@ def delete_user(user_id):
     return message
 if __name__ == "__main__":
     create_db_table()
+    inserted_user = insert_user(user)
